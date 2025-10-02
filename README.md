@@ -1,2 +1,2 @@
-# modern easy website template
-easy-to-use html, css, and javascript website template
+# mishta easy website template
+mishta is an easy-to-use html, css, and javascript website template
