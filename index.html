@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>My Awesome Website</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav-bar">
+            <h1 class="logo">MyLogo</h1>
+            <ul class="desktop-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <h2>Welcome to Your New Website!</h2>
+                <p>This is a simple, clean, and responsive template.</p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3 class="section-title">About Us</h3>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://placehold.co/600x400/93c5fd/333333?text=Our+Team" alt="A placeholder image showing a team">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Hello! This is the 'About Us' section. You can write a paragraph here describing your project, your company, or yourself. Explain what you do and what makes you special.
+                        </p>
+                        <p>
+                           Editing this is easy. Just find the 'about' section in the HTML file and change this text. You can add more paragraphs by adding more `<p>` tags.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services-section">
+            <div class="container">
+                <h3 class="section-title">Our Services</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Web Design</h4>
+                        <p>We create beautiful and functional websites that are easy to use and look great on all devices.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Web Development</h4>
+                        <p>From simple landing pages to complex web applications, we can build it for you.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>SEO Optimization</h4>
+                        <p>We help your website rank higher in search results to attract more visitors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+             <div class="container contact-content">
+                <h3 class="section-title">Contact Us</h3>
+                <p>Have a question or want to work together? Let's talk!</p>
+                <a href="mailto:hello@example.com" class="btn btn-secondary">
+                    hello@example.com
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer-bottom">
+        <div class="container">
+            <p>&copy; 2024 My Awesome Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
