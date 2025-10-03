@@ -7,3 +7,6 @@ https://eightynine77.github.io/mishta-website-template/
 <br><br>
 what the website looks like.<br>
 <img width="523" height="803" alt="image" src="https://github.com/user-attachments/assets/78c178a4-7d1a-4fc5-a179-71d47c768a05" />
+<br><br>
+note: for an even more simpler html website template, you can use this template made by me.<br>
+https://github.com/eightynine77/barebones-responsive-static-website
